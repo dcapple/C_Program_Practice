@@ -17,6 +17,7 @@ printf("\n");
 return 0;
 }
 
+//利用%取於數進位轉換
 void trans(int num,int form,int *bit){
 
 int i=0;
