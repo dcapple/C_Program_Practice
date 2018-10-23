@@ -15,6 +15,7 @@ printf("%d \n",angle);
 return 0;
 }
 
+//輸入幾點幾分，回傳時針分針角度
 int clock(int hour,int min){
 int angle;
 float hourd,mind;

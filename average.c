@@ -6,6 +6,7 @@ int main()
     max=a[0];
     min=a[0];
     arg=0;
+    //一個矩陣搜尋最大值、最小值、平均
     for(int i=0;i<10;i++){
         if(max<a[i])
             max=a[i];
