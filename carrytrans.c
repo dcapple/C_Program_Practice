@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 
 
@@ -17,7 +17,7 @@ printf("\n");
 return 0;
 }
 
-//§Q¥Î%¨ú©ó¼Æ¶i¦ìÂà´«
+//åˆ©ç”¨%å–æ–¼æ•¸é€²ä½è½‰æ›
 
 void trans(int num,int form,int *bit){
 
