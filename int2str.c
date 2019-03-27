@@ -10,7 +10,7 @@ printf("%s",s);
 
 return 0;
 }
-//½m²ß¾ã¼ÆÂà¦r¦ê
+//ç·´ç¿’æ•´æ•¸è½‰å­—ä¸²
 
 void int2str(int num,char *string){
 sprintf(string,"%d",num);
