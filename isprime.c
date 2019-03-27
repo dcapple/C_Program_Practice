@@ -18,7 +18,7 @@ int isprime(int num){
 if (num==1)
     return 0;
 
-//¥u¦Ò¼{¤@¥bªº¦]¼Æ
+//åªè€ƒæ…®ä¸€åŠçš„å› æ•¸
 for(int i=2;i*i<num;i++){       
     if(num%i==0)
     return 0;
