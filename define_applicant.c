@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//§Q¥Î#define¼gÂ²³æªº¨ç¦¡
+//åˆ©ç”¨#defineå¯«ç°¡å–®çš„å‡½å¼
 
 #define MAX(A,B) (A>=B)?A:B
 
