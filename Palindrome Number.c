@@ -1,5 +1,6 @@
 bool isPalindrome(int x) {
     
+
     int i,j,temp=x;
     
     int count=0;
