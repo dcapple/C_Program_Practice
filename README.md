@@ -1,4 +1,4 @@
-# C Program practice
+# C Program Practice
 
 將一些寫過的程式整理並註解後上傳上來
 若有需要請隨意取用
