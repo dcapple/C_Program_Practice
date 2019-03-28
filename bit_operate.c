@@ -1,32 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define bit3 (0x1<<3)
-
-void show(int *);
+#define SETBIT(A,B) ((A)|=(1<<B))
+#define CLRBIT(A,B) ((A)&=~(1<<B))
 
 
 //利用define寫出簡單的函式對位元操作並確認
 int main(void){
 
-int a=0,bit[10]={0};
+int a=0;
 
-a|=bit3;
+//設定bit
+
+SETBIT(a,4);
 
 printf("%d \n",a);
 
-trans(a,2,bit);
+a=7;
 
-show(bit);
+//消除bit
+CLRBIT(a,2);
+
+printf("%d \n",a);
+
 
 return 0;
-}
-
-
-void show(int *bit){
-
-
-for(int i=9;i>=0;i--)
-    printf("%d",*(bit+i));
-
-
 }
