@@ -5,6 +5,8 @@
 
 ## Programs
 
+每支程式的簡易解說
+
 Longest Common Prefix  ---輸入幾組字串後，印出最長的重複字串
 
 Palindrome Number      ---輸入數字後檢查數字是否為"迴文"
