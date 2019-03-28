@@ -2,21 +2,14 @@
 #include <stdlib.h>
 #define SETBIT(A,B) ((A)|=(1<<B))
 #define CLRBIT(A,B) ((A)&=~(1<<B))
-<<<<<<< HEAD
-=======
 
->>>>>>> 2251abf3cbad2d54aa2f4d8d16259270fb5edbae
 
-//åˆ©ç”¨defineå¯«å‡ºç°¡å–®çš„å‡½å¼å°ä½å…ƒæ“ä½œä¸¦ç¢ºèª
+//§Q¥Îdefine¼g¥XÂ²³æªº¨ç¦¡¹ï¦ì¤¸¾Ş§@¨Ã½T»{
 int main(void){
 
 int a=0;
 
-<<<<<<< HEAD
 //³]©wbit
-=======
-//è¨­å®šbit
->>>>>>> 2251abf3cbad2d54aa2f4d8d16259270fb5edbae
 
 SETBIT(a,4);
 
@@ -24,11 +17,7 @@ printf("%d \n",a);
 
 a=7;
 
-<<<<<<< HEAD
 //®ø°£bit
-=======
-//æ¶ˆé™¤bit
->>>>>>> 2251abf3cbad2d54aa2f4d8d16259270fb5edbae
 CLRBIT(a,2);
 
 printf("%d \n",a);
