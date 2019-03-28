@@ -25,7 +25,7 @@ head=reverse_list(head);
 show_list(head);
 return 0;
 }
-
+//鏈結串列的建構
 NODE *build_link(int *arr,int len){
 NODE *head,*current,*pre;
 
@@ -43,6 +43,7 @@ pre=current;
 return head;
 }
 
+//列印出串列
 void show_list(NODE *head){
 
 while(head){
@@ -51,6 +52,7 @@ while(head){
 }
 }
 
+//對串列搜尋特定數字
 NODE *search(NODE *head,int item){
 
 while(head->next){
@@ -60,9 +62,9 @@ while(head->next){
         head=head->next;
 }
 printf("not found!! \n");
-
 }
 
+//將值插入串列中
 void insert_node(NODE *node,int item){
 
 NODE *insert_item;
@@ -73,6 +75,7 @@ node->next=insert_item;
 
 }
 
+//刪除特定的串列
 NODE *delete_node(NODE *head,NODE *node){
 
 NODE *ptr=head;
@@ -92,6 +95,7 @@ free(node);
 return head;
 }
 
+//串列的反轉
 NODE *reverse_list(NODE *head){
 
 NODE *temp,*p;
