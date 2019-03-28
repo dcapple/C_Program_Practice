@@ -4,7 +4,7 @@ int i,j,len=strlen(s),count=0;
 for(i=0;i<len;i++){
    for(j=0;j<len;j++){
 	if(s[i]==s[j])
-		//­pºâ­«½Æ¦¸¼Æ
+		//è¨ˆç®—é‡è¤‡æ¬¡æ•¸
 		count++;     
 	if(count>1)
 		printf("%c : %d \n",s[i],count);
