@@ -8,8 +8,9 @@ char* longestCommonPrefix(char** strs, int strsSize) {
 
     char *temp=(char *)malloc((minlen+1)*sizeof(char));
     i=0;
+    
+    //搜尋重複的最長段落
     while(i<minlen){
-
         for(j=0;j<strsSize;j++){
              if(strs[flag][i] != strs[j][i]){
                 temp[i] = '\0';
