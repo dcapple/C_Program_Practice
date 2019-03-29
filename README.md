@@ -1,6 +1,6 @@
 # C Program Practice
 
-此Repository主要內容為leetcode上的實作、網路上經典的問題、自己在學習C語言的過程中遇到覺得值得紀錄的問題
+此Repository主要內容為leetcode上的實作、自己在學習C語言的過程中遇到覺得值得紀錄的問題
 
 若有需要請隨意取用
 
@@ -24,6 +24,8 @@ bit_operate            ---將簡易的bit操作寫成macro並且實際使用
 
 carrytrans             ---進位轉換
 
+carrytransTable        ---利用既定的表(Table)來實現進位轉換
+
 clock2angle            ---輸入幾點幾分，回傳時針分針所夾的角度
 
 define_applicant       ---練習使用macro
@@ -45,3 +47,4 @@ stringrevese           ---反轉字串不使用多餘的記憶體
 structure              ---結構的簡易練習
 
 twosum                 ---輸入整數陣列及陣列大小，還有相加所求的值，回傳滿足條件的兩個相加值以及所在的陣列索引
+
