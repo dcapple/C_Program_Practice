@@ -1,6 +1,6 @@
 # C Program Practice
 
-此Repository主要內容為leetcode上的實作、網路上經典的問題、自己在學習C語言的過程中遇到覺得值得紀錄的問題
+此Repository主要內容為leetcode上的實作、自己在學習C語言的過程中遇到覺得值得紀錄的問題
 
 若有需要請隨意取用
 
