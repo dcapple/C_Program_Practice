@@ -42,6 +42,10 @@ isprime                ---檢查輸入的整數是否為質數
 
 linklist               ---鍊結串列的基本操作，創建串列、印出、增新結點、刪除結點、反轉串列
 
+memcpy                 ---實作memcpy函數，記憶體複製
+
+memset                 ---實作memset函數，記憶體設置
+
 stack_pop_push         ---簡易實作堆疊
 
 stringrevese           ---反轉字串不使用多餘的記憶體
