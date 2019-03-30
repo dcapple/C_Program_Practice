@@ -32,6 +32,8 @@ define_applicant       ---練習使用macro
 
 duplicatechar          ---計算單一字串中重複到的字母
 
+factorialProblem       ---解決階乘遇到的溢位問題
+
 int2str                ---將輸入的整數轉成字串
 
 integerReverse         ---翻轉整數
