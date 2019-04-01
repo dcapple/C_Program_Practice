@@ -1,16 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void int2str(int ,char *);
 
 int main(void){
+char s[20];
+//²MªÅ¦r¦ê
+memset(s,' ',20);
+
+int A=123456;
 
 int2str(A,s);
 printf("%s",s);
 
 return 0;
 }
-//ç·´ç¿’æ•´æ•¸è½‰å­—ä¸²
+//½m²ß¾ã¼ÆÂà¦r¦ê
 
 void int2str(int num,char *string){
 sprintf(string,"%d",num);
