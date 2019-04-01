@@ -6,7 +6,7 @@ void int2str(int ,char *);
 
 int main(void){
 char s[20];
-//²MªÅ¦r¦ê
+//æ¸…ç©ºå­—ä¸²
 memset(s,' ',20);
 
 int A=123456;
@@ -16,7 +16,7 @@ printf("%s",s);
 
 return 0;
 }
-//½m²ß¾ã¼ÆÂà¦r¦ê
+//ç·´ç¿’æ•´æ•¸è½‰å­—ä¸²
 
 void int2str(int num,char *string){
 sprintf(string,"%d",num);
