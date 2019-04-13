@@ -14,6 +14,14 @@ ex. char a[]="abc",char *a="abc"
 
 而矩陣宣告的變數本身為指標常數，無法進行更改，ex. a++
 
+2.const int* p 和 int* const q 兩者之差別
+
+前指標指的內容不可變動，後指標不可變動
+
+void dp()const; \我不會更改成員
+
+const int* op() const{return &data;} //回傳const參考 保證不會更改
+
 ## Programs
 
 每支程式的簡易解說
