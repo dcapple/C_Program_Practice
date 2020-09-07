@@ -32,14 +32,14 @@ NODE *build_link(int *arr,int len){
         current=(NODE *)malloc(sizeof(NODE));
         current->data=arr[i];
 
-    if(i==0)
-        head=current;
-    else
-        pre->next=current;
+        if(i==0)
+            head=current;
+        else
+            pre->next=current;
         
-    current->next=NULL;
-    pre=current;
-    }
+        current->next=NULL;
+        pre=current;
+     }
     return head;
 }
 
